@@ -148,3 +148,60 @@ Configuration:
 
 ### Tracking File changes
 
+
+Modified
+
+    Changes made but not committed to the staging area
+stage
+
+    changes are ready to be committed
+
+commit
+
+    changes made are pushed
+
+##### Example.
+
+make changes to the code and run git status.
+
+    cd gitchecks
+    
+    ls -l
+    
+    git status  # before making changes
+    
+    git status #after making changes to your code(not staged)
+    
+    git add gitcheks.py --> adds the changes made
+    
+    git status ---->check again and note the difference(staged)
+    
+    git commit -m "commit message" --->commit with message
+    
+    git status--->check, you'll note that it indicates nothing to commit as changes been staged
+
+### Git workflow
+
+##### check configuration:
+
+    git config -l
+    
+create a new file and follow the initial steps above.
+
+Rem, if no commit message , the changes are untracked
+
+    git add filecreated.py ----->track the file
+    
+    git commit -m "message here"---> Failure to add -m launches a default editor where you'll type your commit message
+
+##### Make changes to the existing file created--->"filecreated.py"
+
+    git status----->check status and you'll see untracked changes
+    
+    git add filecreated.py--------->stage the changes
+    
+    git status----------->turn green meaning changes have been staged
+    
+    git commit -m "message"------>store changed to git Directory
+
+##### Writing useful commit messages
