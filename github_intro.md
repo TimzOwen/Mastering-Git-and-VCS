@@ -205,3 +205,21 @@ Rem, if no commit message , the changes are untracked
     git commit -m "message"------>store changed to git Directory
 
 ##### Writing useful commit messages
+
+Always write short desc first then long in commit messages later
+
+Display commit messages:
+
+    git log
+
+More READ ONs:
+
+[Linux Kernel Documentaion](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/process/submitting-patches.rst?id=HEAD)
+
+[impassioned opinions](http://stopwritingramblingcommitmessages.com/)
+
+[Developers story and opinion on Git](https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message)
+
+[setting your email in git](https://help.github.com/articles/setting-your-email-in-git/)
+
+[make your git mail private](https://help.github.com/articles/keeping-your-email-address-private/)
