@@ -206,3 +206,22 @@ Algorithms used to merge
     
 ### Merge Conflicts
 
+    git merge branch_to_master.
+check only one line and graph
+
+    git log --graph --oneline
+    git merge --abort  ---->abort the merge
+
+
+#### Git branching and merging cheatsheet
+
+| Read on Liks                                                                                                           |   	Command      |
+| ----------------------------------------------------------------------------------------------------------------- | -------------------- |
+| [Git branching](https://git-scm.com/docs/git-branch)                | git branch            |
+| [creating a branch](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)          |git branch <branch_name>
+| [Delete a branch](https://git-scm.com/docs/git-branch#Documentation/git-branch.txt--D)	                    |git branch -d <name>    |
+| [Forcibly delete a branch](https://git-scm.com/docs/git-branch#Documentation/git-branch.txt--D)                   |git branch -D <name>   |
+| [switch between branches](https://git-scm.com/docs/git-checkout)                      | git checkout <branch-name>
+| [New branch and switch directky](https://git-scm.com/docs/git-checkout#Documentation/git-checkout.txt--bltnewbranchgt)                | git checkout -b <branch>
+| [Join two branches](https://git-scm.com/docs/git-merge)	                | git merge <branch> /git --abort branch (stop merge)
+| [commit history summary](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History)           | git log --graph --oneline
