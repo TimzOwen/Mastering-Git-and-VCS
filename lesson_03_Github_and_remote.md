@@ -149,3 +149,28 @@ Steps:
 add a file
 
     git push -u origin add-readme
+
+
+Squashing Changes in Commits.
+
+    Rebase -i:
+    git rebase -i master
+        a repo with more changes details
+    git push -f:
+        Force Git to push current snapshot
+
+[Learn more about pull Request](https://help.github.com/en/articles/about-pull-request-merges)
+
+### Code Reviews
+
+Code Review:
+
+    Going through one's code to make sure it all makes sense.
+
+[Style Guide Github](http://google.github.io/styleguide/)
+
+[Pull Request Review](https://help.github.com/en/articles/about-pull-request-reviews)
+
+[Code Review Process](https://medium.com/osedea/the-perfect-code-review-process-845e6ba5c31)
+
+[What is Code Review](https://smartbear.com/learn/code-review/what-is-code-review/)
