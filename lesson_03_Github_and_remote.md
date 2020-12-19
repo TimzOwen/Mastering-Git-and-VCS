@@ -123,3 +123,29 @@ check all graph changes.
 
 [Rebasing Github ](https://git-scm.com/book/en/v2/Git-Branching-Rebasing)
 
+
+
+
+### Pull Requests
+
+Forking:
+
+    creating a copy of a given repository so that it belongs to our user
+
+Pull Request:
+
+    commit/series of commits that you send to the owner of the repository so that they incorporate into their tree
+
+Steps:
+
+    Fork the project
+
+    find the error to fix
+
+    propose File changes
+
+    create a pull request
+
+add a file
+
+    git push -u origin add-readme
