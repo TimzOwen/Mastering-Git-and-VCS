@@ -54,3 +54,35 @@ Generate one password
 [using caching](https://help.github.com/en/articles/caching-your-github-password-in-git)
 
 [using ssh](https://help.github.com/en/articles/generating-an-ssh-key)
+
+### Using Remote Repository
+
+check for git configuration
+
+    git remote -v
+
+        1. fetch-uses HTTP
+
+        2. push -uses HTTPS / SSH
+
+    git remote show origin -- > get more details about remote repo
+
+    git branch -r ---->check for remote branches
+
+Fetching new changes
+
+    git fetch ----> get all changes made from a repo
+
+    git log origin/master ----> check the changes made
+
+    git merge ---> Combine code if there a re changes behind the master branch
+
+Updating Local Repository
+
+| Read on Links                                                                                                           |   	Command      |
+| ----------------------------------------------------------------------------------------------------------------- | -------------------- |
+| [List Remote repos](https://git-scm.com/docs/git-remote)                | git remote            |
+| [List remote repos verbosely ](https://git-scm.com/docs/git-remote#Documentation/git-remote.txt--v)          |git remote -v
+| [describe single remote](https://git-scm.com/docs/git-remote#Documentation/git-remote.txt-emshowem)	                    |git remote show <name>   |
+| [Get most up-to date commits ]https://git-scm.com/docs/git-remote#Documentation/git-remote.txt-emupdateem)          |git remote update
+| [Download specific objects-](https://git-scm.com/docs/git-fetch)	                    |git fetch    |
