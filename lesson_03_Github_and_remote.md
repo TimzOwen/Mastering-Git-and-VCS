@@ -84,5 +84,5 @@ Updating Local Repository
 | [List Remote repos](https://git-scm.com/docs/git-remote)                | git remote            |
 | [List remote repos verbosely ](https://git-scm.com/docs/git-remote#Documentation/git-remote.txt--v)          |git remote -v
 | [describe single remote](https://git-scm.com/docs/git-remote#Documentation/git-remote.txt-emshowem)	                    |git remote show <name>   |
-| [Get most up-to date commits ]https://git-scm.com/docs/git-remote#Documentation/git-remote.txt-emupdateem)          |git remote update
+| [Get most up-to date commits ](https://git-scm.com/docs/git-remote#Documentation/git-remote.txt-emupdateem)          |git remote update
 | [Download specific objects-](https://git-scm.com/docs/git-fetch)	                    |git fetch    |
