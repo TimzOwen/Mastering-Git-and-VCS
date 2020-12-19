@@ -174,3 +174,42 @@ Code Review:
 [Code Review Process](https://medium.com/osedea/the-perfect-code-review-process-845e6ba5c31)
 
 [What is Code Review](https://smartbear.com/learn/code-review/what-is-code-review/)
+
+### Managing Collaboration & Integration
+
+Continuos Integration (CI):
+
+    Testing and running Code automatically using CI
+
+Continuos Deployment/Delivery (CD):
+
+    New Code deployed online/ to Production
+
+CI/CD: example use case is JenKins
+
+    :   Travis for Integration
+
+Pipelines:
+
+    steps you need to run to get to your end Result
+
+artifacts:
+
+    Files generated as part of the pipeline
+
+
+#### Final tools readOns
+
+[Dit Arp242](https://arp242.net/diy.html)
+
+[Closing Issues](https://help.github.com/en/articles/closing-issues-using-keywords)
+
+[Repo Contribution](https://help.github.com/en/articles/setting-guidelines-for-repository-contributors)
+
+[CI/CD integrations](https://www.infoworld.com/article/3271126/what-is-cicd-continuous-integration-and-continuous-delivery-explained.html)
+
+[Get started CI/CD](https://stackify.com/what-is-cicd-whats-important-and-how-to-get-it-right/)
+
+[Get started Travis](https://docs.travis-ci.com/user/tutorial/)
+
+[Travis Building stages](https://docs.travis-ci.com/user/build-stages/)
