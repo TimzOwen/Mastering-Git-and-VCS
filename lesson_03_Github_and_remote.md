@@ -86,3 +86,40 @@ Updating Local Repository
 | [describe single remote](https://git-scm.com/docs/git-remote#Documentation/git-remote.txt-emshowem)	                    |git remote show <name>   |
 | [Get most up-to date commits ](https://git-scm.com/docs/git-remote#Documentation/git-remote.txt-emupdateem)          |git remote update
 | [Download specific objects-](https://git-scm.com/docs/git-fetch)	                    |git fetch    |
+    
+    
+    
+ ### Pull-Merge-Push Conflicts and Workflow
+
+check for all the branches
+
+    git log --graph --oneline --all
+
+Three-way-merge
+
+    git log -p  origin/master
+
+Pushing Remote branches
+
+    git push -u origin <branch>
+
+    git checkout -b <branch name>
+
+    git add repoName -a -m "commit message"
+
+Rebasing your changes
+
+Rebasing is combining sequences of commits
+
+check all graph changes.
+
+    git git rebase master
+
+    After merge and rebase delete the branch for testing
+
+[About merge Conflicts](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-merge-conflicts)
+
+[PRs using Command-line](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/resolving-a-merge-conflict-using-the-command-line)
+
+[Rebasing Github ](https://git-scm.com/book/en/v2/Git-Branching-Rebasing)
+
